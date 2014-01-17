@@ -1,0 +1,18 @@
+startup_message off
+
+defscrollback 30000
+
+#caption always "%?%F%{kr} "
+caption always "%?%F%{Wr} %: %=%n %t%="
+
+hardstatus alwayslastline
+#hardstatus string "%{gk}%=%w%="
+hardstatus string "%?%E%{yk}Command... %:%{gk}%=%{Wk} %n %t %{gk} %W%="
+
+vbell off
+
+# Stop vim leaving its contents on screen
+altscreen on
+
+# Stop delay whilst going into copy mode
+msgminwait 0
